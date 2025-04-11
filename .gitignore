@@ -1,0 +1,33 @@
+# WordPress Core Files
+/wp-admin/
+/wp-includes/
+
+# Optional: Ignore WordPress root files if you prefer to version control only your custom code
+# Otherwise, if you plan on keeping the entire core under version control, comment these out.
+/wp-config.php
+readme.html
+license.txt
+
+# Ignore common server and local files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Ignore cache, backups, and upgrade folders
+wp-content/cache/
+wp-content/backups/
+wp-content/updraft/
+wp-content/upgrade/
+
+# Ignore user uploads, unless you intend to version control them
+wp-content/uploads/
+
+# If you're using Composer for dependency management (optional)
+composer.lock
+vendor/
+
+# Ignore other IDE/project-specific files
+*.sublime-project
+*.sublime-workspace
+.idea/
